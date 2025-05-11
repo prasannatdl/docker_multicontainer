@@ -1,0 +1,12 @@
+{
+    "name": "optimized-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "build": "echo 'Simulating build process...'"
+    },
+    "dependencies": {
+      "express": "^4.18.2"
+    }
+  }

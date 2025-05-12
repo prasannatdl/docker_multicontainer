@@ -6,7 +6,7 @@ RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 USER appuser
 
 # Create app directory
-WORKDIR /home/appuser/app
+WORKDIR /home/ubuntu/docker_multicontainer/secure-node-app
 
 # Copy files and install only production dependencies
 COPY --chown=appuser:appgroup . .

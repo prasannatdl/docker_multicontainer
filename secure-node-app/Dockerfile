@@ -12,7 +12,7 @@ WORKDIR /home/ubuntu/docker_multicontainer/secure-node-app
 COPY --chown=appuser:appgroup . .
 
 # Install dependencies
-RUN npm install --only=production
+RUN npm install
 
 # Expose port
 EXPOSE 3000

@@ -16,7 +16,7 @@ COPY --chown=appuser:appgroup . .
 RUN npm install
 
 # Expose port
-EXPOSE 3000
+EXPOSE 3001
 
 # Run the app
 CMD ["node", "app.js"]

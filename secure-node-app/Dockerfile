@@ -10,6 +10,7 @@ WORKDIR /home/ubuntu/docker_multicontainer/secure-node-app
 
 # Copy files and install only production dependencies
 COPY --chown=appuser:appgroup . .
+COPY --chown=appuser:appgroup package*.json ./
 
 # Install dependencies
 RUN npm install
